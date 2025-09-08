@@ -2,8 +2,8 @@ Concrete Block with 3 moles of U235 and Pu239 with Detector
      1    1    -2.3    (-1 2 -3)    imp:n=1
 
      1    cy    37.5    $ Concrete block outside cylindrical surface, 0.75 meter diameter
-     2    py    0.00    $ Concrete block leftmost surface
-     3    py    100     $ Concrete block rightmost surface
+     2    py    50.0    $ Concrete block leftmost surface
+     3    py   -50.0    $ Concrete block rightmost surface
 
 c ------ Concrete ------
 m1    1001    -0.010000
