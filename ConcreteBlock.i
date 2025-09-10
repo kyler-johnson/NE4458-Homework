@@ -46,11 +46,19 @@ m1    1001.90c     0.168735  $  H-1 and atom fraction
 c ---------------------------------------------------------------
 c                     HIGH-PURITY GERMANIUM
 c ---------------------------------------------------------------
-m2   32070.80c    -0.198037  $ Ge-70 and weight fraction
-     32072.80c    -0.271824  $ Ge-72 and weight fraction
-     32073.80c    -0.077813  $ Ge-73 and weight fraction
-     32074.80c    -0.371489  $ Ge-74 and weight fraction
-     32076.80c    -0.080803  $ Ge-76 and weight fraction
+m2   32070.80c    -0.198037  $  Ge-70 and weight fraction
+     32072.80c    -0.271824  $  Ge-72 and weight fraction
+     32073.80c    -0.077813  $  Ge-73 and weight fraction
+     32074.80c    -0.371489  $  Ge-74 and weight fraction
+     32076.80c    -0.080803  $  Ge-76 and weight fraction
+c ---------------------------------------------------------------
+c       185.7 keV Photons Spread Uniformly Around Concrete
+c ---------------------------------------------------------------
+SDEF erg = 0.1857 x=d1 y=d2
+SI1 -50 50
+SP1  0 1
+SI2 -37.5 37.5
+SP2  0 1
 c ---------------------------------------------------------------
 c                Tally Photons Inside Ge Detector
 c ---------------------------------------------------------------
