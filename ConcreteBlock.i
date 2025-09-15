@@ -54,7 +54,7 @@ m2   32070.80c    -0.198037  $  Ge-70 and weight fraction
 c ---------------------------------------------------------------
 c       185.7 keV Photons Spread Uniformly Around Concrete
 c ---------------------------------------------------------------
-SDEF erg=0.1857, pos=0 0 0, cel=1, axs=0 1 0, rad=d1, EXT=d2
+SDEF erg=0.1857, pos=0 0 0, cel=1, axs=0 1 0, rad=d1, ext=d2
      SI1 L 0 37.5   
      SP1 -1
      SI2 L -50 50
