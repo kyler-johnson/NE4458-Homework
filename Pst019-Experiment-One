@@ -1,0 +1,21 @@
+Plutonium (IV) Sulfate Dissolved in Sulfuric Acid, Surrounded by Beryllium Oxide Blocks and Graphite Blocks
+    1
+
+    1 
+
+c -----------------------------------------------------------
+c     BERYLLIUM OXIDE for reflection and (n, 2n) reaction
+c -----------------------------------------------------------
+m1   4009.80c     0.500000  $  Be-9 and atom fraction
+     8016.80c     0.498785  $  O-16 and atom fraction
+     8017.80c     0.000190  $  O-17 and atom fraction
+     8018.80c     0.001025  $  O-18 and atom fraction
+c -----------------------------------------------------------
+c             BRILLALUMAG alloy for solution tank
+c -----------------------------------------------------------
+m2   1327.80c    -0.969000  $  Al-27 and weight fraction
+     1224.80c    -0.023700  $  Mg-24 and weight fraction
+     1225.80c    -0.003000  $  Mg-25 and weight fraction
+     1226.80c    -0.003300  $  Mg-26 and weight fraction
+     2654.80c    -
+     
