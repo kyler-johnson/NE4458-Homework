@@ -11,8 +11,8 @@ m1   4009.80c     0.500000  $  Be-9 and atom fraction
      8016.80c     0.498785  $  O-16 and atom fraction
      8017.80c     0.000190  $  O-17 and atom fraction
      8018.80c     0.001025  $  O-18 and atom fraction
-mt1  be-beo.80t   
-     o-beo.80t 
+mt1  be-beo.47t             $  Be in BeO thermal x-section
+     o-beo.47t              $  O in BeO thermal x-section
 c -----------------------------------------------------------
 c             BRILLALUMAG alloy for solution tank
 c                    (2.66 g/cm3 density)                   
@@ -27,7 +27,7 @@ c              GRAPHITE for secondary reflector
 c                    (1.65 g/cm3 density)                   
 c -----------------------------------------------------------
 m3   6000.80c     1.000000  $  Elemental C and atom fraction
-mt3  grph.01t               $  Form graphite
+mt3  grph.49t               $  Graphite thermal x-section
 c -----------------------------------------------------------
 c           POLYTETRAFLUORETHYELENE for tank gasket
 c                    (2.15 g/cm3 density)                   
@@ -44,7 +44,7 @@ m5   6000.80c     0.000150  $  Elemental C and atom fraction
      8016.80c     0.210238  $  O-16 and atom fraction
      8017.80c     0.000080  $  O-17 and atom fraction
      8018.80c     0.000432  $  O-18 and atom fraction
-    18000.80c     0.004671  $  Elemental Ar and atom fraction
+    18040.80c     0.004671  $  Ar-40 and atom fraction
 c -----------------------------------------------------------
 c                ZIRCALOY-2 for solution tank
 c                    (6.56 g/cm3 density)
