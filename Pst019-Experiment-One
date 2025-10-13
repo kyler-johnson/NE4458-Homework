@@ -27,6 +27,7 @@ Plutonium (IV) Sulfate Dissolved in Sulfuric Acid
     21    5 -0.001205 (48 -37 -40) imp:n=1
     22    7 -1.056008 (-38 -40 -48) imp:n=1
     23    7 -1.056008 (-44 38 2) imp:n=1
+    24    0         (1:-2:3:-4:5:-6) imp:n=0
 
 c -----------------------------------------------------------
 c                 Surfaces of Graphite Blocks                
@@ -91,7 +92,7 @@ c -----------------------------------------------------------
 c          Surface of Plutonium(IV) Sulfate Solution
 c -----------------------------------------------------------
     48    pz  2.03
-    
+
 c -----------------------------------------------------------
 c            BERYLLIUM OXIDE for primary reflector          
 c                    (2.95 g/cm3 density)                   
