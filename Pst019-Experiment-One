@@ -144,34 +144,34 @@ c -----------------------------------------------------------
 m6   8016.00c     0.006781  $  O-16 and atom fraction
      8017.00c     0.000003  $  O-17 and atom fraction
      8018.00c     0.000014  $  O-18 and atom fraction
-     24050.00c     0.000075  $  Cr-50 and atom fraction
-     24052.00c     0.001460  $  Cr-52 and atom fraction
-     24053.00c     0.000166  $  Cr-53 and atom fraction
-     24054.00c     0.000042  $  Cr-54 and atom fraction
-     26054.00c     0.000095  $  Fe-54 and atom fraction
-     26056.00c     0.001489  $  Fe-56 and atom fraction
-     26057.00c     0.000034  $  Fe-57 and atom fraction
-     26058.00c     0.000005  $  Fe-58 and atom fraction
-     28058.00c     0.000526  $  Ni-58 and atom fraction
-     28060.00c     0.000202  $  Ni-60 and atom fraction
-     28061.00c     0.000009  $  Ni-61 and atom fraction
-     28062.00c     0.000028  $  Ni-62 and atom fraction
-     28064.00c     0.000007  $  Ni-64 and atom fraction
-     40090.00c     0.503377  $  Zr-90 and atom fraction
-     40091.00c     0.109774  $  Zr-91 and atom fraction
-     40092.00c     0.167792  $  Zr-92 and atom fraction
-     40094.00c     0.170042  $  Zr-94 and atom fraction
-     40096.00c     0.027395  $  Zr-96 and atom fraction
-     50112.00c     0.000104  $  Sn-112 and atom fraction
-     50114.00c     0.000071  $  Sn-114 and atom fraction
-     50115.00c     0.000036  $  Sn-115 and atom fraction
-     50116.00c     0.001550  $  Sn-116 and atom fraction
-     50117.00c     0.000821  $  Sn-117 and atom fraction
-     50118.00c     0.002586  $  Sn-118 and atom fraction
-     50119.00c     0.000918  $  Sn-119 and atom fraction
-     50120.00c     0.003484  $  Sn-120 and atom fraction
-     50122.00c     0.000495  $  Sn-122 and atom fraction
-     50124.00c     0.000619  $  Sn-124 and atom fraction
+     24050.00c    0.000075  $  Cr-50 and atom fraction
+     24052.00c    0.001460  $  Cr-52 and atom fraction
+     24053.00c    0.000166  $  Cr-53 and atom fraction
+     24054.00c    0.000042  $  Cr-54 and atom fraction
+     26054.00c    0.000095  $  Fe-54 and atom fraction
+     26056.00c    0.001489  $  Fe-56 and atom fraction
+     26057.00c    0.000034  $  Fe-57 and atom fraction
+     26058.00c    0.000005  $  Fe-58 and atom fraction
+     28058.00c    0.000526  $  Ni-58 and atom fraction
+     28060.00c    0.000202  $  Ni-60 and atom fraction
+     28061.00c    0.000009  $  Ni-61 and atom fraction
+     28062.00c    0.000028  $  Ni-62 and atom fraction
+     28064.00c    0.000007  $  Ni-64 and atom fraction
+     40090.00c    0.503377  $  Zr-90 and atom fraction
+     40091.00c    0.109774  $  Zr-91 and atom fraction
+     40092.00c    0.167792  $  Zr-92 and atom fraction
+     40094.00c    0.170042  $  Zr-94 and atom fraction
+     40096.00c    0.027395  $  Zr-96 and atom fraction
+     50112.00c    0.000104  $  Sn-112 and atom fraction
+     50114.00c    0.000071  $  Sn-114 and atom fraction
+     50115.00c    0.000036  $  Sn-115 and atom fraction
+     50116.00c    0.001550  $  Sn-116 and atom fraction
+     50117.00c    0.000821  $  Sn-117 and atom fraction
+     50118.00c    0.002586  $  Sn-118 and atom fraction
+     50119.00c    0.000918  $  Sn-119 and atom fraction
+     50120.00c    0.003484  $  Sn-120 and atom fraction
+     50122.00c    0.000495  $  Sn-122 and atom fraction
+     50124.00c    0.000619  $  Sn-124 and atom fraction
 c -----------------------------------------------------------
 c       PLUTONIUM(IV) SULFATE in SULFURIC ACID Solution
 c                  (1.056008 g/cm3 density)
