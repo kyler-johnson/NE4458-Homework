@@ -110,7 +110,7 @@ c -----------------------------------------------------------
 c             BRILLALUMAG alloy for solution tank
 c                    (2.66 g/cm3 density)                   
 c -----------------------------------------------------------
-m2   13027.00c    -0.969000  $  Al-27 and weight fraction
+m2   13027.00c   -0.969000  $  Al-27 and weight fraction
      12024.00c   -0.023700  $  Mg-24 and weight fraction
      12025.00c   -0.003000  $  Mg-25 and weight fraction
      12026.00c   -0.003300  $  Mg-26 and weight fraction
