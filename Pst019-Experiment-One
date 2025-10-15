@@ -99,7 +99,7 @@ c -----------------------------------------------------------
 m1   4009.80c     0.500000  $  Be-9 and atom fraction
      8016.80c     0.498785  $  O-16 and atom fraction
      8017.80c     0.000190  $  O-17 and atom fraction
-     8018.80c     0.001025  $  O-18 and atom fraction
+     8018.06c     0.001025  $  O-18 and atom fraction
 mt1  be/o.17t               $  Be in BeO thermal x-section
      o/be.17t               $  O in BeO thermal x-section
 c -----------------------------------------------------------
@@ -131,7 +131,7 @@ m5   6000.80c     0.000150  $  Elemental C and atom fraction
      7015.80c     0.002855  $  N-15 and atom fraction
      8016.80c     0.210238  $  O-16 and atom fraction
      8017.80c     0.000080  $  O-17 and atom fraction
-     8018.80c     0.000432  $  O-18 and atom fraction
+     8018.06c     0.000432  $  O-18 and atom fraction
      18040.80c    0.004671  $  Ar-40 and atom fraction
 c -----------------------------------------------------------
 c                ZIRCALOY-2 for solution tank
@@ -139,7 +139,7 @@ c                    (6.56 g/cm3 density)
 c -----------------------------------------------------------
 m6   8016.80c     0.006781  $  O-16 and atom fraction
      8017.80c     0.000003  $  O-17 and atom fraction
-     8018.80c     0.000014  $  O-18 and atom fraction
+     8018.06c     0.000014  $  O-18 and atom fraction
      24050.80c     0.000075  $  Cr-50 and atom fraction
      24052.80c     0.001460  $  Cr-52 and atom fraction
      24053.80c     0.000166  $  Cr-53 and atom fraction
@@ -176,7 +176,7 @@ m7   1001.80c     0.065557
      1002.80c     0.000010
      8016.80c     0.033795 
      8017.80c     0.000013  
-     8018.80c     0.000069 
+     8018.06c     0.000069 
      16032.80c    0.000292
      16033.80c    0.000002
      16034.80c    0.000013
