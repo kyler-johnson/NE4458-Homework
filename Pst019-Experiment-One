@@ -19,14 +19,14 @@ Plutonium (IV) Sulfate Solution in Prosperine Experimental Setup
     13    6  -6.56  (40 -41 -39 -36) imp:n=1
     14    6  -6.56  (-26 27 -28 29 -42 36 40) imp:n=1
     15    4  -2.15  (-26 27 -28 29 -37 42 40) imp:n=1
-    16    5 -0.0012 (-33 41 34 -36) imp:n=1
-    17    5 -0.0012 (-41 39 34 43) imp:n=1
+    16    5 -0.001205 (-33 41 34 -36) imp:n=1
+    17    5 -0.001205 (-41 39 34 43) imp:n=1
     18    6  -6.56  (38 -43 44 2) imp:n=1
     19    2  -2.66  (-31 -46 47 2) imp:n=1
-    20    5 -0.0012 (-34 2 -47 43) imp:n=1
-    21    5 -0.0012 (48 -37 -40) imp:n=1
-    22    7 -1.0560 (-38 -40 -48) imp:n=1
-    23    7 -1.0560 (-44 38 2) imp:n=1
+    20    5 -0.001205 (-34 2 -47 43) imp:n=1
+    21    5 -0.001205 (48 -37 -40) imp:n=1
+    22    7 -1.056008 (-38 -40 -48) imp:n=1
+    23    7 -1.056008 (-44 38 2) imp:n=1
     24    2  -2.66  (11 -45 -22 23 49 -50) imp:n=1
     25    0         (1:-2:3:-4:5:-6) imp:n=0
 
@@ -118,19 +118,19 @@ c -----------------------------------------------------------
 c              GRAPHITE for secondary reflector              
 c                    (1.65 g/cm3 density)                   
 c -----------------------------------------------------------
-m3   6000.00c     1.000000  $  Elemental C and atom fraction
+m3   6000.80c     1.000000  $  Elemental C and atom fraction
 mt3  grph.19t               $  Graphite thermal x-section
 c -----------------------------------------------------------
 c           POLYTETRAFLUORETHYELENE for tank gasket
 c                    (2.15 g/cm3 density)                   
 c -----------------------------------------------------------
-m4   6000.00c     0.333333  $  Elemental C and atom fraction
+m4   6000.80c     0.333333  $  Elemental C and atom fraction
      9019.00c     0.666667  $  F-19 and atom fraction
 c -----------------------------------------------------------
 c                             AIR
 c                   (0.001205 g/cm3 density)
 c -----------------------------------------------------------
-m5   6000.00c     0.000150  $  Elemental C and atom fraction
+m5   6000.80c     0.000150  $  Elemental C and atom fraction
      7014.00c     0.781574  $  N-14 and atom fraction
      7015.00c     0.002855  $  N-15 and atom fraction
      8016.00c     0.210238  $  O-16 and atom fraction
