@@ -106,11 +106,10 @@ c -----------------------------------------------------------
 c             BRILLALUMAG alloy for solution tank
 c                    (2.66 g/cm3 density)                   
 c -----------------------------------------------------------
-m2  13027.80c    -0.969000  $  Al-27 and weight fraction
-    12024.80c    -0.023700  $  Mg-24 and weight fraction
-    12025.80c    -0.003000  $  Mg-25 and weight fraction
-    12026.80c    -0.003300  $  Mg-26 and weight fraction
-c    26054.80c    -
+m2   13027.80c    -0.969000  $  Al-27 and weight fraction
+     12024.80c   -0.023700  $  Mg-24 and weight fraction
+     12025.80c   -0.003000  $  Mg-25 and weight fraction
+     12026.80c   -0.003300  $  Mg-26 and weight fraction
 c -----------------------------------------------------------
 c              GRAPHITE for secondary reflector              
 c                    (1.65 g/cm3 density)                   
@@ -133,7 +132,7 @@ m5   6000.80c     0.000150  $  Elemental C and atom fraction
      8016.80c     0.210238  $  O-16 and atom fraction
      8017.80c     0.000080  $  O-17 and atom fraction
      8018.80c     0.000432  $  O-18 and atom fraction
-    18040.80c     0.004671  $  Ar-40 and atom fraction
+     18040.80c    0.004671  $  Ar-40 and atom fraction
 c -----------------------------------------------------------
 c                ZIRCALOY-2 for solution tank
 c                    (6.56 g/cm3 density)
@@ -141,34 +140,34 @@ c -----------------------------------------------------------
 m6   8016.80c     0.006781  $  O-16 and atom fraction
      8017.80c     0.000003  $  O-17 and atom fraction
      8018.80c     0.000014  $  O-18 and atom fraction
-    24050.80c     0.000075  $  Cr-50 and atom fraction
-    24052.80c     0.001460  $  Cr-52 and atom fraction
-    24053.80c     0.000166  $  Cr-53 and atom fraction
-    24054.80c     0.000042  $  Cr-54 and atom fraction
-    26054.80c     0.000095  $  Fe-54 and atom fraction
-    26056.80c     0.001489  $  Fe-56 and atom fraction
-    26057.80c     0.000034  $  Fe-57 and atom fraction
-    26058.80c     0.000005  $  Fe-58 and atom fraction
-    28058.80c     0.000526  $  Ni-58 and atom fraction
-    28060.80c     0.000202  $  Ni-60 and atom fraction
-    28061.80c     0.000009  $  Ni-61 and atom fraction
-    28062.80c     0.000028  $  Ni-62 and atom fraction
-    28064.80c     0.000007  $  Ni-64 and atom fraction
-    40090.80c     0.503377  $  Zr-90 and atom fraction
-    40091.80c     0.109774  $  Zr-91 and atom fraction
-    40092.80c     0.167792  $  Zr-92 and atom fraction
-    40094.80c     0.170042  $  Zr-94 and atom fraction
-    40096.80c     0.027395  $  Zr-96 and atom fraction
-    50112.80c     0.000104  $  Sn-112 and atom fraction
-    50114.80c     0.000071  $  Sn-114 and atom fraction
-    50115.80c     0.000036  $  Sn-115 and atom fraction
-    50116.80c     0.001550  $  Sn-116 and atom fraction
-    50117.80c     0.000821  $  Sn-117 and atom fraction
-    50118.80c     0.002586  $  Sn-118 and atom fraction
-    50119.80c     0.000918  $  Sn-119 and atom fraction
-    50120.80c     0.003484  $  Sn-120 and atom fraction
-    50122.80c     0.000495  $  Sn-122 and atom fraction
-    50124.80c     0.000619  $  Sn-124 and atom fraction
+     24050.80c     0.000075  $  Cr-50 and atom fraction
+     24052.80c     0.001460  $  Cr-52 and atom fraction
+     24053.80c     0.000166  $  Cr-53 and atom fraction
+     24054.80c     0.000042  $  Cr-54 and atom fraction
+     26054.80c     0.000095  $  Fe-54 and atom fraction
+     26056.80c     0.001489  $  Fe-56 and atom fraction
+     26057.80c     0.000034  $  Fe-57 and atom fraction
+     26058.80c     0.000005  $  Fe-58 and atom fraction
+     28058.80c     0.000526  $  Ni-58 and atom fraction
+     28060.80c     0.000202  $  Ni-60 and atom fraction
+     28061.80c     0.000009  $  Ni-61 and atom fraction
+     28062.80c     0.000028  $  Ni-62 and atom fraction
+     28064.80c     0.000007  $  Ni-64 and atom fraction
+     40090.80c     0.503377  $  Zr-90 and atom fraction
+     40091.80c     0.109774  $  Zr-91 and atom fraction
+     40092.80c     0.167792  $  Zr-92 and atom fraction
+     40094.80c     0.170042  $  Zr-94 and atom fraction
+     40096.80c     0.027395  $  Zr-96 and atom fraction
+     50112.80c     0.000104  $  Sn-112 and atom fraction
+     50114.80c     0.000071  $  Sn-114 and atom fraction
+     50115.80c     0.000036  $  Sn-115 and atom fraction
+     50116.80c     0.001550  $  Sn-116 and atom fraction
+     50117.80c     0.000821  $  Sn-117 and atom fraction
+     50118.80c     0.002586  $  Sn-118 and atom fraction
+     50119.80c     0.000918  $  Sn-119 and atom fraction
+     50120.80c     0.003484  $  Sn-120 and atom fraction
+     50122.80c     0.000495  $  Sn-122 and atom fraction
+     50124.80c     0.000619  $  Sn-124 and atom fraction
 c -----------------------------------------------------------
 c       PLUTONIUM(IV) SULFATE in SULFURIC ACID Solution
 c                  (1.056008 g/cm3 density)
@@ -178,16 +177,16 @@ m7   1001.80c     0.065557
      8016.80c     0.033795 
      8017.80c     0.000013  
      8018.80c     0.000069 
-    16032.80c     0.000292
-    16033.80c     0.000002
-    16034.80c     0.000013
-    26054.80c     1.009301E-07
-    26056.80c     0.000002
-    26057.80c     3.657636E-08
-    26058.80c     4.83084E-09
-    94239.80c     7.815E-05
-    94240.80c     1.3686E-06
-    94241.80c     2.2971E-08
+     16032.80c    0.000292
+     16033.80c    0.000002
+     16034.80c    0.000013
+     26054.80c    1.009301E-07
+     26056.80c    0.000002
+     26057.80c    3.657636E-08
+     26058.80c    4.83084E-09
+     94239.80c    7.815E-05
+     94240.80c    1.3686E-06
+     94241.80c    2.2971E-08
 c -----------------------------------------------------------
 c            Source Definition and Run Information
 c -----------------------------------------------------------
