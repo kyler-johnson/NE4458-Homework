@@ -8,7 +8,7 @@ c ------------------------------------------------------
     13    3 -18.877 (32 -33 -35 36 -37 38) imp:n=1 u=1  $  Uranium Fuel
     14    2 -18.85  (33 -34 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
     15    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=1  $  Air Above Reflector
-    16    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
+    16    5 -7.92   (-39 40 -41 42 (35:-36:37:-38)
                     (47:-48) 44 -45) imp:n=1 u=1        $  Steel Frame 
     17    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=1  $  Bottom Inside End Block
     18    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=1  $  Top Inside End Block
@@ -20,7 +20,7 @@ c ------------------------------------------------------
    113    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=1  $  Bottom Outer End Block
    114    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=1  $  Top Outer End Block
 c ------------------------------------------------------
-c               Reflector Element Universe             
+c       Reflector Element Universe, Horizontal Gaps
 c ------------------------------------------------------
     20    1 -2.7    (43 -31 -30 29) imp:n=1 u=2         $  Aluminum Tube
     21    4 -0.0012 (-29 -31 43) imp:n=1 u=2            $  Air Inside Aluminum Tube
@@ -38,21 +38,39 @@ c ------------------------------------------------------
    211    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=2  $  Bottom Outer End Block
    212    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=2  $  Top Outer End Block 
 c ------------------------------------------------------
+c       Reflector Element Universe, Vertical Gaps
+c ------------------------------------------------------
+    20    1 -2.7    (43 -31 -30 29) imp:n=1 u=3         $  Aluminum Tube
+    21    4 -0.0012 (-29 -31 43) imp:n=1 u=3            $  Air Inside Aluminum Tube
+    22    2 -18.85  (31 -34 -35 36 -37 38) imp:n=1 u=3  $  Uranium Reflector
+    23    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=3  $  Air Above Reflector
+    24    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
+                    (49:-50) 44 -45) imp:n=1 u=3        $  Steel Frame 
+    25    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=3  $  Bottom Inside End Block
+    26    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=3  $  Top Inside End Block
+    27    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
+                    u=3                                 $  Air Around Aluminum Tube
+    28    4 -0.0012 (35 -39 -49 50 44 -45) imp:n=1 u=3  $  Air Between Top Frame Gap
+    29    4 -0.0012 (-38 42 -49 50 44 -45) imp:n=1 u=3  $  Air Between Bottom Frame Gap
+   210    4 -0.0012 (39:-40:41:-42) imp:n=1 u=3         $  Air Around Frame
+   211    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=3  $  Bottom Outer End Block
+   212    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=3  $  Top Outer End Block 
+c ------------------------------------------------------
 c               Fuel and Reflector Lattice              
 c ------------------------------------------------------
    100    4 -0.0012 23 24 -25 26 -27 28 u=10 lat=1 
                 imp:n=1 fill -5:5 -5:5 0:0
-                 2 2 2 2   2 2   2 2 2 2 2
-                 2 2 2 2   2 2 2   2 2 2 2  $  <-- Universe 4 on third spot
-                 1 1   2 1 1 1 1 1 2   1 1
-                 1 1   1 1 1 1 1 1 2   1 1
+                 2 2 2 2   3 3   2 2 2 2 2
+                 2 2 2 2   3 3 3   2 2 2 2  $  <-- Source on third spot
+                 1 1   3 1 1 1 1 1 3   1 1
+                 1 1   1 1 1 1 1 1 3   1 1
                  1 1   1 1 1 1 1 1 1   1 1
                  1 1   1 1 1 1 1 1 1   1 1
-                 1 1   2 1 1 1 1 1 1   1 1  $  <-- Universe 3 on first spot
+                 1 1   2 1 1 1 1 1 1   1 1  $  <-- Combo reflector/fuel element on first spot
                  1 1   2 1 1 1 1 1 1   1 1
                  1 1   2 1 1 1 1 1 2   1 1
-                 2 2 2 2   2 2   2 2 2 2 2
-                 2 2 2 2   2 2   2 2 2 2 2
+                 2 2 2 2   3 3   2 2 2 2 2
+                 2 2 2 2   3 3   2 2 2 2 2
 c ------------------------------------------------------
 c                Inner Clamping Structure               
 c ------------------------------------------------------
@@ -130,8 +148,12 @@ c
    44        pz -60.000  $  Bottom Surface of Frame
    45        pz  60.000  $  Top Surface of Frame
    46        pz  58.300  $  Top Surface of Air
+c  Horizontal Frame Gaps
    47        py  0.1500  $  Frame Gap "Top"
    48        py -0.1500  $  Frame Gap "Bottom"
+c  Vertical Frame Gaps
+   49        px  0.1500  $  Frame Gap Right
+   50        px -0.1500  $  Frame Gap Left
 
 c ------------------------------------------------------  
 c                        Aluminum                      
