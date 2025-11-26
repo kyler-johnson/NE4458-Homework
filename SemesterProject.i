@@ -40,21 +40,21 @@ c ------------------------------------------------------
 c ------------------------------------------------------
 c       Reflector Element Universe, Vertical Gaps
 c ------------------------------------------------------
-    20    1 -2.7    (43 -31 -30 29) imp:n=1 u=3         $  Aluminum Tube
-    21    4 -0.0012 (-29 -31 43) imp:n=1 u=3            $  Air Inside Aluminum Tube
-    22    2 -18.85  (31 -34 -35 36 -37 38) imp:n=1 u=3  $  Uranium Reflector
-    23    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=3  $  Air Above Reflector
-    24    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
+    30    1 -2.7    (43 -31 -30 29) imp:n=1 u=3         $  Aluminum Tube
+    31    4 -0.0012 (-29 -31 43) imp:n=1 u=3            $  Air Inside Aluminum Tube
+    32    2 -18.85  (31 -34 -35 36 -37 38) imp:n=1 u=3  $  Uranium Reflector
+    33    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=3  $  Air Above Reflector
+    34    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
                     (49:-50) 44 -45) imp:n=1 u=3        $  Steel Frame 
-    25    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=3  $  Bottom Inside End Block
-    26    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=3  $  Top Inside End Block
-    27    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
+    35    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=3  $  Bottom Inside End Block
+    36    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=3  $  Top Inside End Block
+    37    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
                     u=3                                 $  Air Around Aluminum Tube
-    28    4 -0.0012 (35 -39 -49 50 44 -45) imp:n=1 u=3  $  Air Between Top Frame Gap
-    29    4 -0.0012 (-38 42 -49 50 44 -45) imp:n=1 u=3  $  Air Between Bottom Frame Gap
-   210    4 -0.0012 (39:-40:41:-42) imp:n=1 u=3         $  Air Around Frame
-   211    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=3  $  Bottom Outer End Block
-   212    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=3  $  Top Outer End Block 
+    38    4 -0.0012 (35 -39 -49 50 44 -45) imp:n=1 u=3  $  Air Between Top Frame Gap
+    39    4 -0.0012 (-38 42 -49 50 44 -45) imp:n=1 u=3  $  Air Between Bottom Frame Gap
+   310    4 -0.0012 (39:-40:41:-42) imp:n=1 u=3         $  Air Around Frame
+   311    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=3  $  Bottom Outer End Block
+   312    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=3  $  Top Outer End Block 
 c ------------------------------------------------------
 c               Fuel and Reflector Lattice              
 c ------------------------------------------------------
