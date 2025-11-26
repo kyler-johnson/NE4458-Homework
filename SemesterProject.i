@@ -3,7 +3,7 @@ c ------------------------------------------------------
 c                 Fuel Element Universe
 c ------------------------------------------------------
     10    1 -2.7    (43 -31 -30 29) imp:n=1 u=1         $  Aluminum Tube
-    11    4 -0.0012 (-29 -31 28) imp:n=1 u=1            $  Air Inside Aluminum Tube
+    11    4 -0.0012 (-29 -31 43) imp:n=1 u=1            $  Air Inside Aluminum Tube
     12    2 -18.85  (31 -32 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
     13    3 -18.877 (32 -33 -35 36 -37 38) imp:n=1 u=1  $  Uranium Fuel
     14    2 -18.85  (33 -34 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
