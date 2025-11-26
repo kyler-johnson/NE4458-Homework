@@ -1,6 +1,6 @@
 20% Enriched Uranium Reflected by Natural Uranium
 c ------------------------------------------------------
-c             Reflector-Fuel Element Universe
+c                 Fuel Element Universe                
 c ------------------------------------------------------
     10    1 -2.7    (43 -31 -30 29) imp:n=1 u=1         $  Aluminum Tube
     11    4 -0.0012 (-29 -31 43) imp:n=1 u=1            $  Air Inside Aluminum Tube
