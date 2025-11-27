@@ -50,7 +50,7 @@ c ------------------------------------------------------
     36    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=3  $  Top Inside End Block
     37    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
                     u=3                                 $  Air Around Aluminum Tube
-    38    4 -0.0012 (35 -39 -49 50 44 -45) imp:n=1 u=3  $  Air Between Top Frame Gap
+    38    4 -0.0012 (-49 50 37 -41 -45 44) imp:n=1 u=3  $  Air Between Top Frame Gap
     39    4 -0.0012 (-38 42 -49 50 44 -45) imp:n=1 u=3  $  Air Between Bottom Frame Gap
    310    4 -0.0012 (39:-40:41:-42) imp:n=1 u=3         $  Air Around Frame
    311    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=3  $  Bottom Outer End Block
