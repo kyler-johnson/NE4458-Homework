@@ -2,17 +2,17 @@
 c ------------------------------------------------------
 c              Type A Fuel Element Universe                
 c ------------------------------------------------------
-    10    1 -2.7    (43 -31 -30 29) imp:n=1 u=1         $  Aluminum Tube
-    11    4 -0.0012 (-29 -31 43) imp:n=1 u=1            $  Air Inside Aluminum Tube
-    12    2 -18.85  (31 -32 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
-    13    3 -18.877 (32 -33 -35 36 -37 38) imp:n=1 u=1  $  Uranium Fuel
-    14    2 -18.85  (33 -34 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
-    15    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=1  $  Air Above Reflector
-    16    5 -7.92   (-39 40 -41 42 (35:-36:37:-38)
+   100    1 -2.7    (43 -31 -30 29) imp:n=1 u=1         $  Aluminum Tube
+   101    4 -0.0012 (-29 -31 43) imp:n=1 u=1            $  Air Inside Aluminum Tube
+   102    2 -18.85  (31 -32 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
+   103   3 -18.877 (32 -33 -35 36 -37 38) imp:n=1 u=1  $  Uranium Fuel
+   104    2 -18.85  (33 -34 -35 36 -37 38) imp:n=1 u=1  $  Uranium Reflector
+   105    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=1  $  Air Above Reflector
+   106    5 -7.92   (-39 40 -41 42 (35:-36:37:-38)
                     (47:-48) 44 -45) imp:n=1 u=1        $  Steel Frame 
-    17    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=1  $  Bottom Inside End Block
-    18    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=1  $  Top Inside End Block
-    19    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
+   107    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=1  $  Bottom Inside End Block
+   108    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=1  $  Top Inside End Block
+   109    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
                     u=1                                 $  Air Around Aluminum Tube
    110    4 -0.0012 (-47 48 40 -36 44 -45) imp:n=1 u=1  $  Air Between Left Frame Gap
    111    4 -0.0012 (-47 48 35 -39 44 -45) imp:n=1 u=1  $  Air Between Right Frame Gap
@@ -22,18 +22,18 @@ c ------------------------------------------------------
 c ------------------------------------------------------
 c       Reflector Element Universe, Horizontal Gaps
 c ------------------------------------------------------
-    20    1 -2.7    (43 -31 -30 29) imp:n=1 u=2         $  Aluminum Tube
-    21    4 -0.0012 (-29 -31 43) imp:n=1 u=2            $  Air Inside Aluminum Tube
-    22    2 -18.85  (31 -34 -35 36 -37 38) imp:n=1 u=2  $  Uranium Reflector
-    23    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=2  $  Air Above Reflector
-    24    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
+   200    1 -2.7    (43 -31 -30 29) imp:n=1 u=2         $  Aluminum Tube
+   201    4 -0.0012 (-29 -31 43) imp:n=1 u=2            $  Air Inside Aluminum Tube
+   202    2 -18.85  (31 -34 -35 36 -37 38) imp:n=1 u=2  $  Uranium Reflector
+   203    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=2  $  Air Above Reflector
+   204    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
                     (47:-48) 44 -45) imp:n=1 u=2        $  Steel Frame 
-    25    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=2  $  Bottom Inside End Block
-    26    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=2  $  Top Inside End Block
-    27    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
+   205    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=2  $  Bottom Inside End Block
+   206    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=2  $  Top Inside End Block
+   207    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
                     u=2                                 $  Air Around Aluminum Tube
-    28    4 -0.0012 (-47 48 40 -36 44 -45) imp:n=1 u=2  $  Air Between Left Frame Gap
-    29    4 -0.0012 (-47 48 35 -39 44 -45) imp:n=1 u=2  $  Air Between Right Frame Gap
+   208    4 -0.0012 (-47 48 40 -36 44 -45) imp:n=1 u=2  $  Air Between Left Frame Gap
+   209    4 -0.0012 (-47 48 35 -39 44 -45) imp:n=1 u=2  $  Air Between Right Frame Gap
    210    4 -0.0012 (39:-40:41:-42) imp:n=1 u=2         $  Air Around Frame
    211    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=2  $  Bottom Outer End Block
    212    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=2  $  Top Outer End Block 
@@ -58,7 +58,7 @@ c ------------------------------------------------------
 c ------------------------------------------------------
 c               Fuel and Reflector Lattice              
 c ------------------------------------------------------
-   100    4 -0.0012 23 24 -25 26 -27 28 u=10 lat=1 
+   500    4 -0.0012 23 24 -25 26 -27 28 u=10 lat=1 
                 imp:n=1 fill -5:5 -5:5 0:0
                  2 2 2 2   3 3   2 2 2 2 2
                  2 2 2 2   3 3 3   2 2 2 2  $  <-- Source on third spot
@@ -83,7 +83,7 @@ c ------------------------------------------------------
                     (-9:10:7:-1)) imp:n=1                         $  Clamping Structure
     3     4 -0.0012 (-13 14 -15 16 (12:18:-14:-16)(18:-16:13:-11)
                     (-19:15:12:-14)(-20:13:15:-19)(-17:15:20:-11)
-                    55 -27 (1:-2:5:-6) (-4:-8:9:2) (-8:3:-1:9)
+                    21 -27 (1:-2:5:-6) (-4:-8:9:2) (-8:3:-1:9)
                     (-9:10:7:-1)) imp:n=1                         $  Air Above Clamping Structure
     4     4 -0.0012 (-13 14 -15 16 (12:18:-14:-16)(18:-16:13:-11)
                     (-19:15:12:-14)(-20:13:15:-19)(-17:15:20:-11)
@@ -92,9 +92,36 @@ c ------------------------------------------------------
 c ------------------------------------------------------
 c                    Aluminum Plate
 c ------------------------------------------------------
-    5     1 -2.7    (-55 22 54 -53 -51 52 (-8:3:-1:9)
+    5     1 -2.7    (-22 31 54 -53 -51 52 (-8:3:-1:9)
                     (10:-1:-9:7) (1:-6:5:-2) (2:-8:9:-4)) 
                     imp:n=1
+c ------------------------------------------------------
+c              Large Aluminum Support Tubes
+c ------------------------------------------------------
+    6     1 -2.7    (-56 57 -31 28) imp:n=1
+    7 like 6 but trcl (9 -4.7 0) imp:n=1
+    8 like 6 but trcl (9 -14.7 0) imp:n=1
+    9 like 6 but trcl (9 -26.7 0) imp:n=1
+   10 like 6 but trcl (9 -36.7 0) imp:n=1
+   11 like 6 but trcl (0 -41.4 0) imp:n=1
+   12 like 6 but trcl (-24 0 0) imp:n=1
+   13 like 6 but trcl (-33 -4.7 0) imp:n=1
+   14 like 6 but trcl (-33 -14.7 0) imp:n=1
+   15 like 6 but trcl (-33 -26.7 0) imp:n=1
+   16 like 6 but trcl (-33 -36.7 0) imp:n=1
+   17 like 6 but trcl (-24 -41.4 0) imp:n=1
+   18     4 -0.0012 (-57 -31 28) imp:n=1
+   19 like 18 but trcl (9 -4.7 0) imp:n=1
+   20 like 18 but trcl (9 -14.7 0) imp:n=1
+   21 like 18 but trcl (9 -26.7 0) imp:n=1
+   22 like 18 but trcl (9 -36.7 0) imp:n=1
+   23 like 18 but trcl (0 -41.4 0) imp:n=1
+   24 like 18 but trcl (-24 0 0) imp:n=1
+   25 like 18 but trcl (-33 -4.7 0) imp:n=1
+   26 like 18 but trcl (-33 -14.7 0) imp:n=1
+   27 like 18 but trcl (-33 -26.7 0) imp:n=1
+   28 like 18 but trcl (-33 -36.7 0) imp:n=1
+   29 like 18 but trcl (-24 -41.4 0) imp:n=1
 
 c ------------------------------------------------------                        
 c     Surfaces of Inner Reflector Clamping Structure                            
@@ -168,6 +195,11 @@ c -----------------------------------------------------
    53        py  25.135
    54        py -25.135
    55        pz -27.700  $  Top Surface of Aluminum Plate
+c -----------------------------------------------------
+c        Surfaces of Large Aluminum Support Tubes
+c -----------------------------------------------------
+   56       c/z  12.0 20.7 4.50
+   57       c/z  12.0 20.7 4.00
 
 c ------------------------------------------------------  
 c                        Aluminum                      
