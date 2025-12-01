@@ -1,6 +1,6 @@
 20% Enriched Uranium Reflected by Natural Uranium
 c ------------------------------------------------------
-c           Vertical Type A Fuel Plate Universe
+c           Type A Vertical Fuel Plate Universe             
 c ------------------------------------------------------
   1000    3 -18.877 (61 -62 67 -68 72 -73) u=100 imp:n=1  
   1001    8 -2.2    (60 -63 66 -69 71 -74 
@@ -11,7 +11,7 @@ c ------------------------------------------------------
   1004    4 -0.0012  59 -64 65 -70 71 -74  fill=100 u=1000 
                      lat=1 imp:n=1
 c ------------------------------------------------------
-c          Horizontal Type A Fuel Plate Universe        
+c          Type A Horizontal Fuel Plate Universe 
 c ------------------------------------------------------
   2000    3 -18.877 (77 -78 83 -84 72 -73) u=200 imp:n=1  
   2001    8 -2.2    (76 -79 82 -85 71 -74
@@ -42,7 +42,7 @@ c ------------------------------------------------------
    112    4 -0.0012 (39:-40:41:-42) imp:n=1 u=1         $  Air Around Frame
    113    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=1  $  Bottom Outer End Block
    114    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=1  $  Top Outer End Block
-   115    7 -7.2670 (-28) imp:n=1 u=1
+   115    7 -7.2670 (-28) imp:n=1 u=1                   $  Resolve geometry error below end cap
 c ------------------------------------------------------
 c      Reflector Element Universe, Horizontal Gaps
 c ------------------------------------------------------
@@ -61,7 +61,7 @@ c ------------------------------------------------------
    210    4 -0.0012 (39:-40:41:-42) imp:n=1 u=2         $  Air Around Frame
    211    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=2  $  Bottom Outer End Block
    212    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=2  $  Top Outer End Block
-   214    7 -7.2670 (-28) imp:n=1 u=2
+   214    7 -7.2670 (-28) imp:n=1 u=2                   $  Resolve geometry error below end cap
 c ------------------------------------------------------
 c       Reflector Element Universe, Vertical Gaps
 c ------------------------------------------------------
@@ -80,29 +80,29 @@ c ------------------------------------------------------
    310    4 -0.0012 (39:-40:41:-42) imp:n=1 u=3         $  Air Around Frame
    311    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=3  $  Bottom Outer End Block
    312    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=3  $  Top Outer End Block 
-   313    7 -7.2670 (-28) imp:n=1 u=3
+   313    7 -7.2670 (-28) imp:n=1 u=3                   $  Resolve geometry error below end cap
 c ------------------------------------------------------
 c         Horizontal Type A Fuel Element Universe
 c ------------------------------------------------------
-   500    1 -2.7    (43 -31 -30 29) imp:n=1 u=4         $  Aluminum Tube
-   501    4 -0.0012 (-29 -31 43) imp:n=1 u=4            $  Air Inside Aluminum Tube
-   502    2 -18.85  (31 -32 -35 36 -37 38) imp:n=1 u=4  $  Uranium Reflector
-   503    0         (32 -33 -35 36 -37 38) imp:n=1 
+   400    1 -2.7    (43 -31 -30 29) imp:n=1 u=4         $  Aluminum Tube
+   401    4 -0.0012 (-29 -31 43) imp:n=1 u=4            $  Air Inside Aluminum Tube
+   402    2 -18.85  (31 -32 -35 36 -37 38) imp:n=1 u=4  $  Uranium Reflector
+   403    0         (32 -33 -35 36 -37 38) imp:n=1 
                     fill=2000 u=4                       $  Uranium Fuel
-   504    2 -18.85  (33 -34 -35 36 -37 38) imp:n=1 u=4  $  Uranium Reflector
-   505    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=4  $  Air Above Reflector
-   506    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
+   404    2 -18.85  (33 -34 -35 36 -37 38) imp:n=1 u=4  $  Uranium Reflector
+   405    4 -0.0012 (34 -46 -35 36 -37 38) imp:n=1 u=4  $  Air Above Reflector
+   406    5 -7.92   (-39 40 -41 42 (35:-36:37:-38) 
                     (49:-50) 44 -45) imp:n=1 u=4        $  Steel Frame 
-   507    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=4  $  Bottom Inside End Block
-   508    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=4  $  Top Inside End Block
-   509    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
+   407    5 -7.92   (44 -43 -35 36 -37 38) imp:n=1 u=4  $  Bottom Inside End Block
+   408    5 -7.92   (46 -45 -35 36 -37 38) imp:n=1 u=4  $  Top Inside End Block
+   409    4 -0.0012 (43 -31 30 -35 36 -37 38) imp:n=1
                     u=4                                 $  Air Around Aluminum Tube
-   510    4 -0.0012 (-49 50 37 -41 -45 44) imp:n=1 u=4  $  Air Between Top Frame Gap
-   511    4 -0.0012 (-38 42 -49 50 44 -45) imp:n=1 u=4  $  Air Between Bottom Frame Gap
-   512    4 -0.0012 (39:-40:41:-42) imp:n=1 u=4         $  Air Around Frame
-   513    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=4  $  Bottom Outer End Block
-   514    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=4  $  Top Outer End Block
-   515    7 -7.2670 (-28) imp:n=1 u=4
+   410    4 -0.0012 (-49 50 37 -41 -45 44) imp:n=1 u=4  $  Air Between Top Frame Gap
+   411    4 -0.0012 (-38 42 -49 50 44 -45) imp:n=1 u=4  $  Air Between Bottom Frame Gap
+   412    4 -0.0012 (39:-40:41:-42) imp:n=1 u=4         $  Air Around Frame
+   413    7 -7.2670 (-39 40 -41 42 -44 28) imp:n=1 u=4  $  Bottom Outer End Block
+   414    7 -7.2670 (-39 40 -41 42 45 -27) imp:n=1 u=4  $  Top Outer End Block
+   415    7 -7.2670 (-28) imp:n=1 u=4                   $  Resolve geometry error below end cap
 c ------------------------------------------------------
 c               Fuel and Reflector Lattice              
 c ------------------------------------------------------
@@ -348,15 +348,15 @@ m4   6012.00c     0.00014900000
      8018.00c     0.00043200000
      18040.00c    0.00467100000
 c ------------------------------------------------------  
-c          Steel for Frames and Inner End Blocks         
+c          Steel for Frames and Inner End Blocks
 c ------------------------------------------------------  
 m5   6000 -1
 c ------------------------------------------------------
-c              Steel for Clamping Structure             
+c              Steel for Clamping Structure
 c ------------------------------------------------------
 m6   6000 -1
 c ------------------------------------------------------
-c               Steel for Outer End Blocks             
+c              Steel for Outer End Blocks
 c ------------------------------------------------------
 m7   6000 -1
 c ------------------------------------------------------
@@ -364,6 +364,7 @@ c                        Teflon
 c ------------------------------------------------------
 m8   9019.00c     0.66666666667
      6012.00c     0.33333333333
+
 c ------------------------------------------------------
 c          Source Definition and Run Information
 c ------------------------------------------------------
