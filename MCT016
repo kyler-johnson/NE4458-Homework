@@ -15,11 +15,11 @@ c -----------------------------------------------------------
     2     px -20.33  
     3     py  20.36
     4     py -20.36
-    5     pz  13.39   $  Top surface of aluminum absorber plate
-    6     pz -13.39   $  Bottom surface of aluminum absorber plate
-    7     pz  23.57   $  Top surface of upper 2.8 H:[Pu+U] MOX blocks
-    8     pz -23.57   $  Bottom surface of lower 2.8 H:[Pu+U] MOX blocks
-    9     pz  35.654  $  Top surface of 30.6 H:[Pu+U] MOX blocks
+    5     pz  1.355   $  Top surface of aluminum absorber plate
+    6     pz -1.355   $  Bottom surface of aluminum absorber plate
+    7     pz  11.535   $  Top surface of upper 2.8 H:[Pu+U] MOX blocks
+    8     pz -11.535   $  Bottom surface of lower 2.8 H:[Pu+U] MOX blocks
+    9     pz  23.619  $  Top surface of 30.6 H:[Pu+U] MOX blocks
 c -----------------------------------------------------------
 c              Surfaces of Plexiglass Reflector
 c -----------------------------------------------------------
@@ -27,8 +27,8 @@ c -----------------------------------------------------------
    11     px -35.57
    12     py  35.60
    13     py -35.60
-   14     pz -38.81
-   15     pz  50.894
+   14     pz -26.775
+   15     pz  38.859
 
 MODE n
 c -----------------------------------------------------------
